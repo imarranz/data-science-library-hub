@@ -1,7 +1,13 @@
 
 # Data Science Library Hub
 
-This document describes the Python libraries that I find fundamental, or at least interesting, for improving productivity in a Data Science project. Each of these libraries is developed and available on GitHub.
+Welcome to the Data Science Libraries Hub, a curated collection of the most pivotal and innovative tools in the Pyhton data science ecosystem. My aim is to serve as a comprehensive resource for data scientists, analysts, and enthusiasts.
+
+This repository is a roadmap to the vast landscape of Python libraries that drive analysis, insights, and machine learning. From data manipulation with Pandas and NumPy to creating sophisticated models with Scikit-learn, and visualizations with Matplotlib and Seaborn - these tools form the core of day-to-day data science work.
+
+Here, you'll also discover libraries that are pushing the boundaries, whether through elegant solutions for complex problems or by introducing new paradigms altogether. Libraries like Altair for declarative visualizations, PyCaret for automating machine learning workflows, and Pingouin for advanced statistical analysis show the exciting direction of our field.
+
+Each library is listed with its description, GitHub link, and tags for easy navigation and reference.
 
 ## List of Libraries
 
@@ -9,31 +15,31 @@ This document describes the Python libraries that I find fundamental, or at leas
 
 In the realm of Data Science, certain tools form the backbone of data analysis and modeling. This section, "Key Data Science Tools," focuses on the essential libraries that are foundational for any Data Science practitioner. Ranging from data manipulation to basic visualization and statistical analysis, these tools are the building blocks for developing robust Data Science solutions. They include well-known libraries like Pandas for data processing, Scikit-learn for machine learning, and Matplotlib for plotting and visualization, among others. Whether you are just starting out or are a seasoned data scientist, these are the tools you will turn to time and again.
 
-Aquí tienes la tabla con las bibliotecas que mencionaste, incluyendo una columna para el nombre de la biblioteca, una breve descripción, el enlace de GitHub (que deberás buscar y completar), las etiquetas pertinentes y la cantidad de "stars" que has proporcionado:
+Aquí tienes la tabla con las bibliotecas que mencionaste, incluyendo una columna para el nombre de la biblioteca, una breve descripción, el enlace de GitHub (que deberás buscar y completar) y etiquetas:
 
 | Library Name | Description | GitHub Link | Tags | Stars |
 | ------------ | ----------- | ----------- | ---- | ----- |
-| matplotlib   | 2D Plotting library for Python | [GitHub](https://github.com/matplotlib/matplotlib) | Visualization | 661 |
-| pandas       | Data manipulation and analysis | [GitHub](https://github.com/pandas-dev/pandas) | Data Wrangling | 616 |
-| numpy        | Numerical computing with Python | [GitHub](https://github.com/numpy/numpy) | Scientific Computing | 575 |
-| sklearn      | Machine learning in Python | [GitHub](https://github.com/scikit-learn/scikit-learn) | Machine Learning | 538 |
-| seaborn      | Statistical data visualization | [GitHub](https://github.com/mwaskom/seaborn) | Visualization | 431 |
-| yaml         | YAML parser and emitter for Python | [GitHub](https://github.com/yaml/pyyaml) | Configuration | 357 |
-| scipy        | Scientific computing and technical computing | [GitHub](https://github.com/scipy/scipy) | Scientific Computing | 331 |
+| matplotlib   | 2D Plotting library for Python | [MatplotLib](https://github.com/matplotlib/matplotlib) | Visualization | 661 |
+| pandas       | Data manipulation and analysis | [Pandas](https://github.com/pandas-dev/pandas) | Data Wrangling | 616 |
+| numpy        | Numerical computing with Python | [NumPy](https://github.com/numpy/numpy) | Scientific Computing | 575 |
+| sklearn      | Machine learning in Python | [Sklearn](https://github.com/scikit-learn/scikit-learn) | Machine Learning | 538 |
+| seaborn      | Statistical data visualization | [Seaborn](https://github.com/mwaskom/seaborn) | Visualization | 431 |
+| yaml         | YAML parser and emitter for Python | [YAML](https://github.com/yaml/pyyaml) | Configuration | 357 |
+| scipy        | Scientific computing and technical computing | [SciPy](https://github.com/scipy/scipy) | Scientific Computing | 331 |
 | sqlite3      | Database engine included with Python | - | Database | 148 |
-| altair       | Declarative statistical visualization library for Python | [GitHub](https://github.com/altair-viz/altair) | Visualization | 139 |
-| IPython      | Powerful interactive shell for Python | [GitHub](https://github.com/ipython/ipython) | Interactive Computing | 109 |
-| joblib       | Lightweight pipelining: using Python functions as pipeline jobs | [GitHub](https://github.com/joblib/joblib) | Parallel Computing | 86 |
+| altair       | Declarative statistical visualization library for Python | [Altair](https://github.com/altair-viz/altair) | Visualization | 139 |
+| IPython      | Powerful interactive shell for Python | [IPython](https://github.com/ipython/ipython) | Interactive Computing | 109 |
+| joblib       | Lightweight pipelining: using Python functions as pipeline jobs | [joblib](https://github.com/joblib/joblib) | Parallel Computing | 86 |
 | datetime     | Basic date and time types | - | Date/Time | 60 |
 | warnings     | Non-fatal alerts used to issue cautionary advice | - | System | 37 |
 | pickle       | Serialize Python object structures | - | Data Serialization | 33 |
-| bs4 (BeautifulSoup) | Pulling data out of HTML and XML files | [GitHub](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) | Web Scraping | 32 |
+| bs4 (BeautifulSoup) | Pulling data out of HTML and XML files | [BS4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) | Web Scraping | 32 |
 | math         | Mathematical functions defined by the C standard | - | Mathematics | 27 |
 | itertools    | Functions creating iterators for efficient looping | - | Iterators | 22 |
 | time         | Time access and conversions | - | System | 19 |
-| requests     | HTTP library for Python | [GitHub](https://github.com/psf/requests) | Web Requests | 17 |
+| requests     | HTTP library for Python | [request](https://github.com/psf/requests) | Web Requests | 17 |
 | urllib       | URL handling modules for Python | - | URL Parsing | 15 |
-| xlsxwriter   | Python module for creating Excel XLSX files | [GitHub](https://github.com/jmcnamara/XlsxWriter) | Excel Writing | 11 |
+| xlsxwriter   | Python module for creating Excel XLSX files | [xlsxwriter](https://github.com/jmcnamara/XlsxWriter) | Excel Writing | 11 |
 
 ### Innovative Data Science Tools
 
@@ -70,14 +76,14 @@ Beyond the basics, the Data Science landscape is enriched by a variety of innova
 | Pyforest               | Automatic package import for commonly used Python libraries. | [PyForest](https://github.com/8080labs/pyforest) | Automated Import, Efficiency | <a href="https://github.com/8080labs/pyforest"><img src="https://img.shields.io/github/8080labs/pyforest" alt="Stars"/></a> |
 | PySnooper              | Profile your code to track new variables and their updates. | [PySnooper](https://github.com/cool-RR/PySnooper) | Code Profiling, Debugging | <a href="https://github.com/cool-RR/PySnooper"><img src="https://img.shields.io/github/cool-RR/PySnooper" alt="Stars"/></a> |
 | Sidetable              | Supercharge Pandas' value_counts() method. | [Side Table](https://github.com/chris1610/sidetable) | Pandas, Data Analysis | <a href="https://github.com/chris1610/sidetable"><img src="https://img.shields.io/github/chris1610/sidetable" alt="Stars"/></a> |
-| watermark              | IPython magic to display timestamps, version numbers, and hardware information | [GitHub](https://github.com/rasbt/watermark) | Development Tools | 18 |
-| dabest                 | Data Analysis using Bootstrap-Coupled ESTimation | [GitHub](https://github.com/ACCLAB/dabestr) | Data Analysis | 18 |
-| pingouin               | Statistics in Python | [GitHub](https://github.com/raphaelvallat/pingouin) | Statistics | 161 |
-| ipywidgets             | Interactive HTML widgets for Jupyter notebooks | [GitHub](https://github.com/jupyter-widgets/ipywidgets) | Interactive Widgets | 27 |
-| tableone               | Create "Table 1" summaries for research papers | [GitHub](https://github.com/tompollard/tableone) | Research | 62 |
-| statannot              | Add statistical annotations on an existing boxplot/barplot | [GitHub](https://github.com/webermarcolivier/statannot) | Data Visualization | 39 |
-| myst_nb                | Jupyter Notebooks in Sphinx Documentation | [GitHub](https://github.com/executablebooks/MyST-NB) | Documentation | 44 |
-| openai                 | OpenAI API client library | [GitHub](https://github.com/openai/openai-python) | AI API Client | 13 |
+| watermark              | IPython magic to display timestamps, version numbers, and hardware information | [WaterMark](https://github.com/rasbt/watermark) | Development Tools | 18 |
+| dabest                 | Data Analysis using Bootstrap-Coupled ESTimation | [Dabest](https://github.com/ACCLAB/dabestr) | Data Analysis | 18 |
+| pingouin               | Statistics in Python | [Pingouin](https://github.com/raphaelvallat/pingouin) | Statistics | 161 |
+| ipywidgets             | Interactive HTML widgets for Jupyter notebooks | [iPyWidgets](https://github.com/jupyter-widgets/ipywidgets) | Interactive Widgets | 27 |
+| tableone               | Create "Table 1" summaries for research papers | [TableOne](https://github.com/tompollard/tableone) | Research | 62 |
+| statannot              | Add statistical annotations on an existing boxplot/barplot | [StatAnnot](https://github.com/webermarcolivier/statannot) | Data Visualization | 39 |
+| myst_nb                | Jupyter Notebooks in Sphinx Documentation | [MyST-NB](https://github.com/executablebooks/MyST-NB) | Documentation | 44 |
+| openai                 | OpenAI API client library | [OpenAI](https://github.com/openai/openai-python) | AI API Client | 13 |
 
 This table summarizes each library with its description, GitHub link, and relevant tags, providing a clear and concise overview of these Innovative Data Science Tools.
 

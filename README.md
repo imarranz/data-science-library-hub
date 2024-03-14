@@ -11,33 +11,46 @@ Each library is listed with its description, GitHub link, and tags for easy navi
 
 ## List of Libraries
 
+
+In the realm of data science libraries, each tool often possesses a unique set of capabilities, potentially spanning multiple functional areas. To simplify categorization, we have grouped these libraries into five distinct tags, acknowledging that some libraries could fit into more than one category.
+
+  * **Data Manipulation**: This category encompasses libraries that are integral to processing and transforming data. They are the backbone of data analysis, offering functionalities for sorting, filtering, and summarizing data.
+
+  * **Data Visualization**: Libraries under this tag focus on the graphical representation of data. They enable users to create a wide array of charts, graphs, and other visual tools to make data more understandable and engaging.
+
+  * **Machine Learning**: This category includes libraries specifically designed for developing machine learning models. They provide tools for training, testing, and deploying algorithms that can learn from and make predictions on data.
+
+  * **Advanced Tools**: Here, you'll find libraries that offer specialized functionalities, often for specific, more complex tasks in data science, such as high-performance computing, advanced statistical models, or large-scale data processing.
+
+  * **Development and Debugging**: Libraries in this group are geared towards facilitating the development process itself, including code writing, testing, and debugging. They enhance the efficiency and quality of the development workflow.
+
 ### Key Data Science Tools
 
 In the realm of Data Science, certain tools form the backbone of data analysis and modeling. This section, "Key Data Science Tools," focuses on the essential libraries that are foundational for any Data Science practitioner. Ranging from data manipulation to basic visualization and statistical analysis, these tools are the building blocks for developing robust Data Science solutions. They include well-known libraries like Pandas for data processing, Scikit-learn for machine learning, and Matplotlib for plotting and visualization, among others. Whether you are just starting out or are a seasoned data scientist, these are the tools you will turn to time and again.
 
 | Library Name | Description | GitHub Link | Tags |
 | ------------ | ----------- | ----------- | ---- |
-| matplotlib   | 2D Plotting library for Python | [MatplotLib](https://github.com/matplotlib/matplotlib) | Visualization |
-| pandas       | Data manipulation and analysis | [Pandas](https://github.com/pandas-dev/pandas) | Data Wrangling |
-| numpy        | Numerical computing with Python | [NumPy](https://github.com/numpy/numpy) | Scientific Computing |
+| matplotlib   | 2D Plotting library for Python | [MatplotLib](https://github.com/matplotlib/matplotlib) | Data Visualization |
+| seaborn      | Statistical data visualization | [Seaborn](https://github.com/mwaskom/seaborn) | Data Visualization |
+| altair       | Declarative statistical visualization library for Python | [Altair](https://github.com/altair-viz/altair) | Data Visualization |
+| pandas       | Data manipulation and analysis | [Pandas](https://github.com/pandas-dev/pandas) | Data Manipulation |
+| numpy        | Numerical computing with Python | [NumPy](https://github.com/numpy/numpy) | Data Manipulation |
+| scipy        | Scientific computing and technical computing | [SciPy](https://github.com/scipy/scipy) | Data Manipulation |
+| math         | Mathematical functions defined by the C standard | - | Data Manipulation |
+| itertools    | Functions creating iterators for efficient looping | - | Data Manipulation |
 | sklearn      | Machine learning in Python | [Sklearn](https://github.com/scikit-learn/scikit-learn) | Machine Learning |
-| seaborn      | Statistical data visualization | [Seaborn](https://github.com/mwaskom/seaborn) | Visualization |
-| yaml         | YAML parser and emitter for Python | [YAML](https://github.com/yaml/pyyaml) | Configuration |
-| scipy        | Scientific computing and technical computing | [SciPy](https://github.com/scipy/scipy) | Scientific Computing |
-| sqlite3      | Database engine included with Python | - | Database |
-| altair       | Declarative statistical visualization library for Python | [Altair](https://github.com/altair-viz/altair) | Visualization |
-| IPython      | Powerful interactive shell for Python | [IPython](https://github.com/ipython/ipython) | Interactive Computing |
-| joblib       | Lightweight pipelining: using Python functions as pipeline jobs | [joblib](https://github.com/joblib/joblib) | Parallel Computing |
-| datetime     | Basic date and time types | - | Date/Time |
-| warnings     | Non-fatal alerts used to issue cautionary advice | - | System |
-| pickle       | Serialize Python object structures | - | Data Serialization |
-| bs4 (BeautifulSoup) | Pulling data out of HTML and XML files | [BS4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) | Web Scraping |
-| math         | Mathematical functions defined by the C standard | - | Mathematics |
-| itertools    | Functions creating iterators for efficient looping | - | Iterators |
-| time         | Time access and conversions | - | System |
-| requests     | HTTP library for Python | [request](https://github.com/psf/requests) | Web Requests |
-| urllib       | URL handling modules for Python | - | URL Parsing |
-| xlsxwriter   | Python module for creating Excel XLSX files | [xlsxwriter](https://github.com/jmcnamara/XlsxWriter) | Excel Writing |
+| yaml         | YAML parser and emitter for Python | [YAML](https://github.com/yaml/pyyaml) | Advanced Tools |
+| joblib       | Lightweight pipelining: using Python functions as pipeline jobs | [joblib](https://github.com/joblib/joblib) | Advanced Tools |
+| pickle       | Serialize Python object structures | - | Advanced Tools |
+| bs4 (BeautifulSoup) | Pulling data out of HTML and XML files | [BS4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) | Advanced Tools |
+| requests     | HTTP library for Python | [request](https://github.com/psf/requests) | Advanced Tools |
+| urllib       | URL handling modules for Python | - | Advanced Tools |
+| xlsxwriter   | Python module for creating Excel XLSX files | [xlsxwriter](https://github.com/jmcnamara/XlsxWriter) | Advanced Tools |
+| time         | Time access and conversions | - | Development and Debugging |
+| sqlite3      | Database engine included with Python | - | Development and Debugging |
+| IPython      | Powerful interactive shell for Python | [IPython](https://github.com/ipython/ipython) | Development and Debugging |
+| datetime     | Basic date and time types | - | Development and Debugging |
+| warnings     | Non-fatal alerts used to issue cautionary advice | - | Development and Debugging |
 
 ### Innovative Data Science Tools
 

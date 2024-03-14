@@ -1,9 +1,9 @@
 
-# Data Science Library Hub
+# Data Science Libraries Hub
 
 Welcome to the Data Science Libraries Hub, a curated collection of the most pivotal and innovative tools in the Pyhton data science ecosystem. My aim is to serve as a comprehensive resource for data scientists, analysts, and enthusiasts.
 
-This repository is a roadmap to the vast landscape of Python libraries that drive analysis, insights, and machine learning. From data manipulation with Pandas and NumPy to creating sophisticated models with [Scikit-learn](https://github.com/scikit-learn/scikit-learn), and visualizations with [MatplotLib](https://github.com/matplotlib/matplotlib) and [Seaborn](https://github.com/mwaskom/seaborn) - these tools form the core of day-to-day data science work.
+This repository is a roadmap to the vast landscape of Python libraries that drive analysis, insights, and machine learning. From data manipulation with [Pandas](https://github.com/pandas-dev/pandas) and [NumPy](https://github.com/numpy/numpy) to creating sophisticated models with [Scikit-learn](https://github.com/scikit-learn/scikit-learn), and visualizations with [MatplotLib](https://github.com/matplotlib/matplotlib) and [Seaborn](https://github.com/mwaskom/seaborn) - these tools form the core of day-to-day data science work.
 
 Here, you'll also discover libraries that are pushing the boundaries, whether through elegant solutions for complex problems or by introducing new paradigms altogether. Libraries like [Altair](https://github.com/altair-viz/altair) for declarative visualizations, [PyCaret](https://github.com/pycaret/pycaret) for automating machine learning workflows (as [MLflow](https://github.com/mlflow/mlflow)), and [Pingouin](https://github.com/raphaelvallat/pingouin) for advanced statistical analysis show the exciting direction of our field.
 
@@ -26,7 +26,7 @@ In the realm of data science libraries, each tool often possesses a unique set o
 
 ### Key Data Science Tools
 
-In the realm of Data Science, certain tools form the backbone of data analysis and modeling. This section, "Key Data Science Tools," focuses on the essential libraries that are foundational for any Data Science practitioner. Ranging from data manipulation to basic visualization and statistical analysis, these tools are the building blocks for developing robust Data Science solutions. They include well-known libraries like Pandas for data processing, Scikit-learn for machine learning, and [MatplotLib](https://github.com/matplotlib/matplotlib) for plotting and visualization, among others. Whether you are just starting out or are a seasoned data scientist, these are the tools you will turn to time and again.
+In the realm of Data Science, certain tools form the backbone of data analysis and modeling. This section, _Key Data Science Tools_, focuses on the essential libraries that are foundational for any Data Science practitioner. Ranging from data manipulation to basic visualization and statistical analysis, these tools are the building blocks for developing robust Data Science solutions. They include well-known libraries like [Pandas](https://github.com/pandas-dev/pandas) for data processing, [Scikit-learn](https://github.com/scikit-learn/scikit-learn) for machine learning, and [MatplotLib](https://github.com/matplotlib/matplotlib) for plotting and visualization, among others. Whether you are just starting out or are a seasoned data scientist, these are the tools you will turn to time and again.
 
 | Library Name | Description | GitHub Link | Tags |
 | ------------ | ----------- | ----------- | ---- |

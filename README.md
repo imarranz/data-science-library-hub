@@ -58,46 +58,46 @@ Beyond the basics, the Data Science landscape is enriched by a variety of innova
 
 | Library Name           | Description                                            | GitHub Link | Tags                           |
 | ---------------------- | ------------------------------------------------------ | ----------- | ------------------------------ |
-| YellowBrick            | A suite of visualization and diagnostic tools for faster model selection. | [YellowBrick](https://github.com/DistrictDataLabs/yellowbrick) |  Visualization, Diagnostics |
-| PyCaret                | Automate ML workflows with this low-code library. | [PyCaret](https://github.com/pycaret/pycaret) | ML Automation, Low-Code |
-| imbalanced-learn       | A variety of methods to handle class imbalance. | [Imbalanced Learn](https://github.com/scikit-learn-contrib/imbalanced-learn) | Imbalanced Classes, Preprocessing |
-| Modin                  | Boost Pandas' performance up to 70x by modifying the import. | [Modin](https://github.com/modin-project/modin) | Performance Improvement, Pandas |
-| SHAP                   | Explain the output of any ML model in a few lines of code. | [SHAP](https://github.com/shap/shap) | ML Explainability |
-| Missingno              | Visualize missing values in your dataset with ease. | [Missingno](https://github.com/ResidentMario/missingno) | Data Visualization, Missing Data |
-| Parallel-Pandas        | Parallelize Pandas across all CPU cores for faster computation. | [Parallel Pandas](https://github.com/nalepae/pandarallel) | Pandas Performance, Parallelization |
-| Featuretools           | Automated feature engineering for ML models. | [Feature Tools](https://github.com/alteryx/featuretools) | Feature Engineering, ML |
-| Lazy Predict           | Lazy Predict help build a lot of basic models without much code and helps understand which models works better without any parameter tuning. | [Lazy Predict](https://github.com/shankarpandala/lazypredict) | ML Automation |
-| mlxtend                | A collection of utility functions for processing evaluating visualizing models. | [lmxtend](https://github.com/rasbt/mlxtend) | ML Utilities, Visualization |
-| Vaex                   | High performance package for lazy Out-of-Core DataFrames. | [Vaex](https://github.com/vaexio/vaex) | High Performance, DataFrames |
-| SweetViz               | In-depth EDA report in two lines of code. | [SweetViz](https://github.com/fbdesignpro/sweetviz) | EDA, Data Analysis |
-| Skorch                 | Leverage the power of PyTorch with the elegance of sklearn. | [Skorch](https://github.com/skorch-dev/skorch) | PyTorch, Sklearn Integration |
-| Faiss                  | Efficient algorithms for similarity search and clustering dense vectors. | [Faiss](https://github.com/facebookresearch/faiss) | Similarity Search, Clustering |
-| statsmodels            | Statistical testing and data exploration at fingertips. | [StatsModels](https://github.com/statsmodels/statsmodels) | Statistical Analysis, Data Exploration |
-| Pandas-Profiling       | Generate a high-level EDA report of your data in no time. | [Pandas Profiling](https://github.com/ydataai/ydata-profiling) | EDA, Pandas                  |
-| Streamlit              | Create and host data-based Python web apps in few lines of code. | [Streamlit](https://github.com/streamlit/streamlit) | Web Apps, Python Development |
-| Category-encoders      | Over 15 categorical data encoders. | [Category Encoders](https://github.com/scikit-learn-contrib/category_encoders) | Categorical Data Encoding, Preprocessing |
-| DuckDB                 | Run SQL queries on DataFrame. | [DuckDB](https://github.com/duckdb/duckdb) | SQL, DataFrames |
-| Pandas ML              | Pandas data wrangling + Sklearn algorithms + Matplotlib visualization. | [PandasML](https://github.com/pandas-ml/pandas-ml) | Data Wrangling, Sklearn, Visualization |
-| Pytest                 | An elegant testing framework to test your code. | [PyTest](https://github.com/pytest-dev/pytest) | Testing, Framework |
-| Numexpr                | Parallelize NumPy to all CPU cores for 20x speedup. | [NumExpr](https://github.com/pydata/numexpr) | NumPy, Parallelization |
-| CSV-Kit                | Explore, query, and describe CSV files from the terminal. | [CSV-Kit](https://github.com/wireservice/csvkit) | CSV, Data Exploration |
-| Pivot Table JS         | Drag-n-drop tools to group, pivot, plot dataframe. | [Pivot Table JS](https://github.com/plotly/react-pivottable) | Pivot Tables, Visualization |
-| Faker                  | Generate fake yet meaningful data in seconds. | [Faker](https://github.com/joke2k/faker) | Data Generation, Testing |
-| Icecream               | Don't debug with print(). Use icecream instead. | [IceCream](https://github.com/gruns/icecream) | Debugging, Development Tools |
-| Pyforest               | Automatic package import for commonly used Python libraries. | [PyForest](https://github.com/8080labs/pyforest) | Automated Import, Efficiency |
-| PySnooper              | Profile your code to track new variables and their updates. | [PySnooper](https://github.com/cool-RR/PySnooper) | Code Profiling, Debugging |
-| Sidetable              | Supercharge Pandas' value_counts() method. | [Side Table](https://github.com/chris1610/sidetable) | Pandas, Data Analysis |
-| watermark              | IPython magic to display timestamps, version numbers, and hardware information | [WaterMark](https://github.com/rasbt/watermark) | Development Tools |
-| DABEST                 | Data Analysis using Bootstrapped ESTimation | [DABEST](https://github.com/ACCLAB/DABEST-python) | Data Analysis |
-| pingouin               | Statistics in Python | [Pingouin](https://github.com/raphaelvallat/pingouin) | Statistics |
-| ipywidgets             | Interactive HTML widgets for Jupyter notebooks | [iPyWidgets](https://github.com/jupyter-widgets/ipywidgets) | Interactive Widgets |
-| tableone               | Create "Table 1" summaries for research papers | [TableOne](https://github.com/tompollard/tableone) | Research |
+| YellowBrick            | A suite of visualization and diagnostic tools for faster model selection. | [YellowBrick](https://github.com/DistrictDataLabs/yellowbrick) | Data Visualization |
+| Missingno              | Visualize missing values in your dataset with ease. | [Missingno](https://github.com/ResidentMario/missingno) | Data Visualization |
+| stickyland             | Break the linear presentation of Jupyter Notebooks with sticky cells! | [stickyland](https://github.com/xiaohk/stickyland) | Data Visualization |
+| PyGWalker              | PyGWalker: Turn your pandas dataframe into an interactive UI for visual analysis | [PyGWalker](https://github.com/Kanaries/pygwalker) | Data Visualization |
+| lux                    | Automatically visualize your pandas dataframe via a single print! | [lux](https://github.com/lux-org/lux) | Data Visualization |
+| SweetViz               | In-depth EDA report in two lines of code. | [SweetViz](https://github.com/fbdesignpro/sweetviz) | Data Visualization |
+| Pivot Table JS         | Drag-n-drop tools to group, pivot, plot dataframe. | [Pivot Table JS](https://github.com/plotly/react-pivottable) | Data Visualization |
+| DABEST                 | Data Analysis using Bootstrapped ESTimation | [DABEST](https://github.com/ACCLAB/DABEST-python) | Data Visualization |
+| tableone               | Create "Table 1" summaries for research papers | [TableOne](https://github.com/tompollard/tableone) | Data Visualization |
 | statannot              | Add statistical annotations on an existing boxplot/barplot | [StatAnnot](https://github.com/webermarcolivier/statannot) | Data Visualization |
-| myst_nb                | Jupyter Notebooks in Sphinx Documentation | [MyST-NB](https://github.com/executablebooks/MyST-NB) | Documentation |
-| openai                 | OpenAI API client library | [OpenAI](https://github.com/openai/openai-python) | AI API Client |
-| stickyland             | Break the linear presentation of Jupyter Notebooks with sticky cells! | [stickyland](https://github.com/xiaohk/stickyland) | |
-| PyGWalker              | PyGWalker: Turn your pandas dataframe into an interactive UI for visual analysis | [PyGWalker](https://github.com/Kanaries/pygwalker) | |
-| lux                    | Automatically visualize your pandas dataframe via a single print! | [lux](https://github.com/lux-org/lux) | |
+| imbalanced-learn       | A variety of methods to handle class imbalance. | [Imbalanced Learn](https://github.com/scikit-learn-contrib/imbalanced-learn) | Data Manipulation |
+| Modin                  | Boost Pandas' performance up to 70x by modifying the import. | [Modin](https://github.com/modin-project/modin) | Data Manipulation |
+| Parallel-Pandas        | Parallelize Pandas across all CPU cores for faster computation. | [Parallel Pandas](https://github.com/nalepae/pandarallel) | Data Manipulation |
+| Vaex                   | High performance package for lazy Out-of-Core DataFrames. | [Vaex](https://github.com/vaexio/vaex) | Data Manipulation |
+| statsmodels            | Statistical testing and data exploration at fingertips. | [StatsModels](https://github.com/statsmodels/statsmodels) | Data Manipulation |
+| Pandas-Profiling       | Generate a high-level EDA report of your data in no time. | [Pandas Profiling](https://github.com/ydataai/ydata-profiling) | Data Manipulation |
+| Category-encoders      | Over 15 categorical data encoders. | [Category Encoders](https://github.com/scikit-learn-contrib/category_encoders) | Data Manipulation |
+| DuckDB                 | Run SQL queries on DataFrame. | [DuckDB](https://github.com/duckdb/duckdb) | Data Manipulation |
+| Numexpr                | Parallelize NumPy to all CPU cores for 20x speedup. | [NumExpr](https://github.com/pydata/numexpr) | Data Manipulation |
+| CSV-Kit                | Explore, query, and describe CSV files from the terminal. | [CSV-Kit](https://github.com/wireservice/csvkit) | Data Manipulation |
+| pingouin               | Statistics in Python | [Pingouin](https://github.com/raphaelvallat/pingouin) | Data Manipulation |
+| Sidetable              | Supercharge Pandas' value_counts() method. | [Side Table](https://github.com/chris1610/sidetable) | Data Manipulation |
+| PyCaret                | Automate ML workflows with this low-code library. | [PyCaret](https://github.com/pycaret/pycaret) | Machine Learning |
+| SHAP                   | Explain the output of any ML model in a few lines of code. | [SHAP](https://github.com/shap/shap) | Machine Learning |
+| Featuretools           | Automated feature engineering for ML models. | [Feature Tools](https://github.com/alteryx/featuretools) | Machine Learning |
+| Lazy Predict           | Lazy Predict help build a lot of basic models without much code and helps understand which models works better without any parameter tuning. | [Lazy Predict](https://github.com/shankarpandala/lazypredict) | Machine Learning |
+| openai                 | OpenAI API client library | [OpenAI](https://github.com/openai/openai-python) | Machine Learning |
+| Skorch                 | Leverage the power of PyTorch with the elegance of sklearn. | [Skorch](https://github.com/skorch-dev/skorch) | Machine Learning |
+| mlxtend                | A collection of utility functions for processing evaluating visualizing models. | [lmxtend](https://github.com/rasbt/mlxtend) | Machine Learning |
+| Pandas ML              | Pandas data wrangling + Sklearn algorithms + Matplotlib visualization. | [PandasML](https://github.com/pandas-ml/pandas-ml) | Machine Learning |
+| Faiss                  | Efficient algorithms for similarity search and clustering dense vectors. | [Faiss](https://github.com/facebookresearch/faiss) | Machine Learning |
+| Pytest                 | An elegant testing framework to test your code. | [PyTest](https://github.com/pytest-dev/pytest) | Development and Debugging |
+| Streamlit              | Create and host data-based Python web apps in few lines of code. | [Streamlit](https://github.com/streamlit/streamlit) | Development and Debugging |
+| Faker                  | Generate fake yet meaningful data in seconds. | [Faker](https://github.com/joke2k/faker) | Development and Debugging |
+| Icecream               | Don't debug with print(). Use icecream instead. | [IceCream](https://github.com/gruns/icecream) | Development and Debugging |
+| Pyforest               | Automatic package import for commonly used Python libraries. | [PyForest](https://github.com/8080labs/pyforest) | Development and Debugging |
+| PySnooper              | Profile your code to track new variables and their updates. | [PySnooper](https://github.com/cool-RR/PySnooper) | Development and Debugging |
+| watermark              | IPython magic to display timestamps, version numbers, and hardware information | [WaterMark](https://github.com/rasbt/watermark) | Development and Debugging |
+| ipywidgets             | Interactive HTML widgets for Jupyter notebooks | [iPyWidgets](https://github.com/jupyter-widgets/ipywidgets) | Development and Debugging |
+| myst_nb                | Jupyter Notebooks in Sphinx Documentation | [MyST-NB](https://github.com/executablebooks/MyST-NB) | Development and Debugging |
 
 This table summarizes each library with its description, GitHub link, and relevant tags, providing a clear and concise overview of these Innovative Data Science Tools.
 

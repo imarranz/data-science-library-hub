@@ -1,5 +1,5 @@
 
-# Data Science Libraries Hub
+# Data Science Library Hub
 
 Welcome to the Data Science Libraries Hub, a curated collection of the most pivotal and innovative tools in the Pyhton data science ecosystem. My aim is to serve as a comprehensive resource for data scientists, analysts, and enthusiasts.
 

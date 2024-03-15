@@ -1,18 +1,17 @@
 
 # Data Science Library Hub
 
-Welcome to the Data Science Libraries Hub, a curated collection of the most pivotal and innovative tools in the Pyhton data science ecosystem. My aim is to serve as a comprehensive resource for data scientists, analysts, and enthusiasts.
+Welcome to the **Data Science Library Hub**, a curated collection of the most pivotal and innovative tools in the Pyhton Data Science ecosystem. My aim is to serve as a comprehensive resource for data scientists, analysts, and enthusiasts.
 
-This repository is a roadmap to the vast landscape of Python libraries that drive analysis, insights, and machine learning. From data manipulation with [Pandas](https://github.com/pandas-dev/pandas) and [NumPy](https://github.com/numpy/numpy) to creating sophisticated models with [Scikit-learn](https://github.com/scikit-learn/scikit-learn), and visualizations with [MatplotLib](https://github.com/matplotlib/matplotlib) and [Seaborn](https://github.com/mwaskom/seaborn) - these tools form the core of day-to-day data science work.
+This repository is a roadmap to the vast landscape of Python libraries that drive analysis, insights, and machine learning. From data manipulation with [Pandas](https://github.com/pandas-dev/pandas) and [NumPy](https://github.com/numpy/numpy) to creating sophisticated models with [Scikit-learn](https://github.com/scikit-learn/scikit-learn), and visualizations with [MatplotLib](https://github.com/matplotlib/matplotlib) and [Seaborn](https://github.com/mwaskom/seaborn) - these tools form the core of day-to-day Data Science work.
 
-Here, you'll also discover libraries that are pushing the boundaries, whether through elegant solutions for complex problems or by introducing new paradigms altogether. Libraries like [Altair](https://github.com/altair-viz/altair) for declarative visualizations, [PyCaret](https://github.com/pycaret/pycaret) for automating machine learning workflows (as [MLflow](https://github.com/mlflow/mlflow)), and [Pingouin](https://github.com/raphaelvallat/pingouin) for advanced statistical analysis show the exciting direction of our field.
+Here, you will also discover libraries that are pushing the boundaries, whether through elegant solutions for complex problems or by introducing new paradigms altogether. Libraries like [Altair](https://github.com/altair-viz/altair) for declarative visualizations, [PyCaret](https://github.com/pycaret/pycaret) for automating machine learning workflows like [MLflow](https://github.com/mlflow/mlflow)), and [Pingouin](https://github.com/raphaelvallat/pingouin) for advanced statistical analysis show the exciting direction of our field.
 
 Each library is listed with its description, GitHub link, and tags for easy navigation and reference.
 
 ## List of Libraries
 
-
-In the realm of data science libraries, each tool often possesses a unique set of capabilities, potentially spanning multiple functional areas. To simplify categorization, we have grouped these libraries into five distinct tags, acknowledging that some libraries could fit into more than one category.
+In the realm of Data Science libraries, each tool often possesses a unique set of capabilities, potentially spanning multiple functional areas. To simplify categorization, we have grouped these libraries into five distinct tags, acknowledging that some libraries could fit into more than one category.
 
   * **Data Manipulation**: This category encompasses libraries that are integral to processing and transforming data. They are the backbone of data analysis, offering functionalities for sorting, filtering, and summarizing data.
 
@@ -20,7 +19,7 @@ In the realm of data science libraries, each tool often possesses a unique set o
 
   * **Machine Learning**: This category includes libraries specifically designed for developing machine learning models. They provide tools for training, testing, and deploying algorithms that can learn from and make predictions on data.
 
-  * **Advanced Tools**: Here, you'll find libraries that offer specialized functionalities, often for specific, more complex tasks in data science, such as high-performance computing, advanced statistical models, or large-scale data processing.
+  * **Advanced Tools**: Here, you will find libraries that offer specialized functionalities, often for specific, more complex tasks in data science, such as high-performance computing, advanced statistical models, or large-scale data processing.
 
   * **Development and Debugging**: Libraries in this group are geared towards facilitating the development process itself, including code writing, testing, and debugging. They enhance the efficiency and quality of the development workflow.
 
@@ -54,7 +53,7 @@ In the realm of Data Science, certain tools form the backbone of data analysis a
 
 ### Innovative Data Science Tools
 
-Beyond the basics, the Data Science landscape is enriched by a variety of innovative tools that push the boundaries of data analysis and model development. In "Innovative Data Science Tools," we explore libraries that bring unique functionalities, offer enhanced performance, or simplify complex processes in groundbreaking ways. These tools might not be as widely known as the foundational ones, but they are invaluable for specialized tasks, advanced analysis, and for keeping your methodologies at the cutting edge. From libraries that handle large datasets with ease, to those that provide novel approaches to machine learning and data visualization, this section is dedicated to the tools that are reshaping the future of Data Science.
+Beyond the basics, the Data Science landscape is enriched by a variety of innovative tools that push the boundaries of data analysis and model development. In _Innovative Data Science Tools_, we explore libraries that bring unique functionalities, offer enhanced performance, or simplify complex processes in groundbreaking ways. These tools might not be as widely known as the foundational ones, but they are invaluable for specialized tasks, advanced analysis, and for keeping your methodologies at the cutting edge. From libraries that handle large datasets with ease, to those that provide novel approaches to machine learning and data visualization, this section is dedicated to the tools that are reshaping the future of Data Science.
 
 | Library Name           | Description                                            | GitHub Link | Tags                           |
 | ---------------------- | ------------------------------------------------------ | ----------- | ------------------------------ |

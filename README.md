@@ -1,6 +1,24 @@
 
 # Data Science Library Hub
 
+
+<p align="center">
+  <a href="https://github.com/imarranz/data-science-library-hub/pulls">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true" alt="Pull Requests">
+  </a>
+  <a href="LICENSE.md">
+    <img src="https://img.shields.io/badge/License-MIT-red.svg?longCache=true" alt="MIT License">
+  </a>
+   <a href="https://github.com/imarranz/data-science-library-hub"><img src="https://img.shields.io/github/stars/imarranz/data-science-library-hub" alt="Stars"/></a>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://twitter.com/imarranz" target="_blank">
+    <img src="https://img.shields.io/twitter/follow/imarranz.svg?logo=twitter">
+  </a>
+</p>
+
 Welcome to the **Data Science Library Hub**, a curated collection of the most pivotal and innovative tools in the Pyhton Data Science ecosystem. My aim is to serve as a comprehensive resource for data scientists, analysts, and enthusiasts.
 
 This repository is a roadmap to the vast landscape of Python libraries that drive analysis, insights, and machine learning. From data manipulation with [Pandas](https://github.com/pandas-dev/pandas) and [NumPy](https://github.com/numpy/numpy) to creating sophisticated models with [Scikit-learn](https://github.com/scikit-learn/scikit-learn), and visualizations with [MatplotLib](https://github.com/matplotlib/matplotlib) and [Seaborn](https://github.com/mwaskom/seaborn) - these tools form the core of day-to-day Data Science work.

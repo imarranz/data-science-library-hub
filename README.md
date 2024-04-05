@@ -138,7 +138,8 @@ Your contributions are what make the **Data Science Library Hub** a dynamic and 
 
   1. :mailbox: **Open an Issue**: Start by opening an issue in this GitHub repository. Describe the contribution you want to make, whether it's adding a new library, improving an existing one, or providing additional resources.
 
-  2. :fork_and_knife: **Fork and Edit**: Fork this repository, make your changes, and then submit a pull request with your contributions.
+  2. :fork_and_knife: **Fork and Edit**: Fork this repository, make your changes, and then submit a pull request with your contributions. <a href="https://github.com/imarranz/data-science-library-hub/pulls">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true" alt="Pull Requests"></a>
 
   3. :mag: **Review**: I will review your submission, and if everything is in order, your contributions will be merged into the project.
 

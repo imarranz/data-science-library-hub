@@ -1,7 +1,9 @@
 
 # Data Science Library Hub
 
-![](https://repository-images.githubusercontent.com/770897305/3249aecb-72b1-4b3f-87f1-c9458d3ce66b)
+<p align="center">
+  <img src="https://repository-images.githubusercontent.com/770897305/3249aecb-72b1-4b3f-87f1-c9458d3ce66b" alt="Data Science Library Hub">
+</p>
 
 <p align="center">
   <a href="https://github.com/imarranz/data-science-library-hub/pulls">

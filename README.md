@@ -2,7 +2,7 @@
 # Data Science Library Hub
 
 <p align="center">
-  <img src="https://repository-images.githubusercontent.com/770897305/3249aecb-72b1-4b3f-87f1-c9458d3ce66b" alt="Data Science Library Hub">
+  <img src="https://repository-images.githubusercontent.com/770897305/2416957b-958a-44c9-8b46-5f10a600eead" alt="Data Science Library Hub">
 </p>
 
 <p align="center">

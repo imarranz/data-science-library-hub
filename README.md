@@ -12,7 +12,7 @@
   <a href="LICENSE.md">
     <img src="https://img.shields.io/badge/License-MIT-red.svg?longCache=true" alt="MIT License">
   </a>
-   <a href="https://github.com/imarranz/data-science-library-hub"><img src="https://img.shields.io/github/stars/imarranz/data-science-library-hub" alt="Stars"/></a>
+   <a href="https://github.com/imarranz/data-science-library-hub"><img src="https://img.shields.io/github/stars/imarranz/data-science-library-hub" alt="Stars"/>
   </a>
 </p>
 

@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Ibon Martínez-Arranz">
+  <meta property="article:author" content="https://github.com/imarranz" />
+  <meta property="og:site_name" content="Data Science Library Hub" />
+  <meta property="og:url" content="https://imarranz.github.io/data-science-library-hub/" />
+  <meta property="og:description" content="Colección de librerías Python para Data Science, con búsqueda, filtros y badges de colores simples." />
+
+  <title>Python Data Science Library Hub</title>
+  <meta name="description" content="Colección de librerías Python para Data Science (pandas, numpy, sklearn, viz, MLOps, etc.) con búsqueda, filtros y enlaces a GitHub y documentación." />
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
+      <text y=%22.9em%22 font-size=%2290%22>🐍</text></svg>">
+  <style>
+    /* Estilo base para selects */
+    select {
+      background-color: var(--card); /* mismo color que las tarjetas */
+      color: var(--fg);
+    }
+
+    /* Opciones dentro del desplegable */
+    select option {
+      background-color: var(--card);
+      color: var(--fg);
+    }
+    :root{ --bg:#ffffff; --fg:#0f172a; --muted:#475569; --card:#f8fafc; --accent:#2563eb; --chip:#e2e8f0; --border:#e5e7eb; }
+    @media (prefers-color-scheme: dark){
+      :root{ --bg:#0b1220; --fg:#e6edf7; --muted:#9aa4b2; --card:#0f172a; --accent:#60a5fa; --chip:#1f2937; --border:#1f2a3a; }
+    }
+    *{box-sizing:border-box} html,body{margin:0;padding:0}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.5}
+    a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+    .counter { color: var(--muted); margin: 6px 0 0; font-size: 0.95rem; }
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    header{padding:48px 0 24px}
+    .hero h1{font-size:clamp(2.5rem,5vw,4rem);margin:.2em 0}
+    .hero p{color:var(--muted);margin-top:8px}
+    .controls{display:grid;grid-template-columns:1fr 260px;gap:12px;margin:24px 0}
+    @media(max-width:860px){.controls{grid-template-columns:1fr 1fr}}
+    @media(max-width:580px){.controls{grid-template-columns:1fr}}
+    input[type="search"],select{width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:transparent;color:var(--fg)}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    @media(max-width:1000px){.grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:640px){.grid{grid-template-columns:1fr}}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px}
+    .title{font-weight:900;margin:0}
+    .meta{color:var(--muted);font-size:.9rem}
+    .chips{margin-top:4px;display:flex;flex-wrap:wrap;gap:8px}
+    .chip{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;font-size:.8rem;border:1px solid var(--border);background:var(--chip);color:var(--fg)}
+    .chip.ml{ background:#f59e0b; color:#0b1220; border-color:#f59e0b; }       /* naranja bonito (amber-500 vibe) */
+    .chip.viz{ background:#22c55e; color:white; border-color:#22c55e; }        /* verde bonito (green-500 vibe) */
+    .actions{display:flex;gap:10px;margin-top:8px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:8px 10px;border-radius:10px;border:1px solid var(--border);background:transparent}
+    .btn.primary{background:var(--accent);border-color:var(--accent);color:white}
+    footer{margin:40px 0;color:var(--muted);font-size:1.2rem}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+    .empty{color:var(--muted); text-align:center; padding:32px 0}
+    .err{color:#b91c1c}
+    .count { color: var(--muted); margin-top: 6px; }
+
+
+    .menu-container {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      font-family: Arial, sans-serif;
+    }
+
+    .menu-button {
+      font-size: 24px;
+      cursor: pointer;
+      background: #333;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+
+    .menu-dropdown {
+      display: none;
+      position: absolute;
+      right: 0;
+      background-color: var(--card);
+      min-width: 400px;
+      box-shadow: 0px 2px 8px rgba(100,100,100,0.2);
+      padding: 10px;
+      border-radius: 15px;
+    }
+
+    .menu-dropdown a {
+      display: block;
+      padding: 5px 0;
+      color: #0073e6;
+      text-decoration: none;
+    }
+
+    .menu-dropdown a:hover {
+      text-decoration: underline;
+    }
+
+    .menu-dropdown.show {
+      display: block;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero" role="banner">
+      <h1>Python Data Science Library Hub</h1>
+        <p style="color:var(--muted); font-size:1.2rem; margin-top:6px;">
+        Librerías y herramientas del ecosistema Python para Ciencia de Datos, con búsqueda, filtro por etiqueta y enlaces rápidos a GitHub y documentación.
+        </p>
+        <p style="color:var(--muted); font-size:1.1rem; margin-top:6px;">
+          por Ibon Martinez-Arranz |
+          <a href="https://github.com/imarranz" target="_blank">
+            <img src="https://img.shields.io/badge/GitHub-%40imarranz-181717?logo=github&style=flat"
+                alt="GitHub @imarranz" style="vertical-align:middle; margin-left:4px;">
+          </a> |
+          <a href="https://github.com/imarranz/data-science-library-hub/pulls">
+            <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true" alt="Pull Requests" style="vertical-align:middle; margin-left:4px;">
+          </a> |
+          <a href="https://github.com/imarranz/data-science-library-hub" target="_blank">
+            <img src="https://img.shields.io/github/stars/imarranz/data-science-library-hub?style=social"
+                alt="GitHub Stars" style="vertical-align:middle; margin-left:4px;">
+          </a>
+        </p>
+
+      <hr>
+      <div class="controls" role="search">
+        <label class="sr-only" for="q">Buscar</label>
+        <input id="q" type="search" placeholder="Buscar por nombre, descripción o etiqueta..." autocomplete="off" />
+        <label class="sr-only" for="tag">Etiqueta</label>
+        <select id="tag">
+          <option value="">Etiqueta: todas</option>
+        </select>
+      </div>
+      <p id="counter" class="count"></p>
+    </header>
+
+    <main aria-live="polite">
+      <section class="section">
+        <div id="grid" class="grid"></div>
+        <p id="status" class="empty"></p>
+      </section>
+    </main>
+
+    <footer>
+      <hr>
+      <p>
+        Tus contribuciones son las que hacen que <strong>Data Science Library Hub</strong> sea un recurso vivo y colaborativo.
+        Si tienes sugerencias para añadir nuevas librerías o mejorar el contenido existente, tus ideas serán bienvenidas e interesantes para toda la comunidad de ciencia de datos. <a href="https://github.com/imarranz/data-science-library-hub" target="_blank">Contribuye en GitHub</a>.
+      </p>
+    </footer>
+  </div>
+
+  <div class="menu-container">
+    <div class="menu-button" onclick="toggleMenu()">&#9776;</div>
+    <div class="menu-dropdown" id="menu">
+      <p style="font-size:1.5rem;"><strong>Data Science Library Hub</strong></p>
+      <hr>
+      <p style="color:var(--muted); font-size:0.89rem; margin-top:2px;">
+        Librerías y herramientas del ecosistema Python para Ciencia de Datos, con búsqueda, filtro por etiqueta y enlaces rápidos a GitHub y documentación.
+      </p>
+      <p>&#128100; Ibon Martínez-Arranz (@imarranz)</p>
+      <a href="https://github.com/imarranz/data-science-library-hub" target="_blank"><strong>&#128194; ir al repositorio </strong></a>
+    </div>
+  </div>
+
+  <script>
+    const grid = document.getElementById('grid');
+    const statusEl = document.getElementById('status');
+    const q = document.getElementById('q');
+    const tagSelect = document.getElementById('tag');
+    const counter = document.getElementById('counter');
+
+    let LIBS = [];
+
+    /* ---- Colores fijos y sencillos ----
+      - "Machine Learning" -> naranja
+      - "Data Visualization" -> verde
+      - resto -> chip neutro
+    */
+    function chipClass(tag){
+      const t = (tag || "").toLowerCase();
+      if (t.includes("machine learning") || t === "ml") return "ml";
+      if (t.includes("visualization") || t.includes("visualisation") || t.includes("viz")) return "viz";
+      return "";
+    }
+
+    function matches(lib){
+      const query = (q.value || "").toLowerCase();
+      const haystack = [lib.name, lib.description, ...(lib.tags||[])].join(" ").toLowerCase();
+      const qok = !query || haystack.includes(query);
+      const tok = !tagSelect.value || (lib.tags||[]).includes(tagSelect.value);
+      return qok && tok;
+    }
+
+    function badge(tag){
+      const cls = chipClass(tag);
+      return `<span class="chip ${cls}">${tag}</span>`;
+    }
+
+    function card(lib){
+      const tags = (lib.tags||[]).map(badge).join("");
+      return `
+        <article class="card" role="article">
+          <h3 class="title">${lib.name}</h3>
+          ${lib.description ? `<p>${lib.description}</p>` : ""}
+          <div class="chips">${tags}</div>
+          <div class="actions">
+            ${lib.github ? `<a class="btn" href="${lib.github}" target="_blank" rel="noopener">GitHub</a>` : ""}
+            ${lib.docs ? `<a class="btn primary" href="${lib.docs}" target="_blank" rel="noopener">Docs</a>` : ""}
+          </div>
+        </article>
+      `;
+    }
+
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("show");
+    }
+
+    function render(){
+      const items = LIBS.filter(matches);
+      grid.innerHTML = items.map(card).join("");
+      statusEl.textContent = items.length ? "" : "No se encontraron librerías con esos filtros.";
+      counter.textContent = `Mostrando ${items.length} de ${LIBS.length} librerías`;
+    }
+
+    function populateTagFilter(libs){
+      const all = new Set();
+      libs.forEach(l => (l.tags||[]).forEach(t => all.add(t)));
+      const opts = ['<option value="">Etiqueta: todas</option>'].concat(
+        Array.from(all).sort().map(t => `<option>${t}</option>`)
+      );
+      tagSelect.innerHTML = opts.join("");
+    }
+
+    async function loadLibs(){
+      try{
+        const res = await fetch('libraries.json?v=' + Date.now());
+        if(!res.ok) throw new Error("HTTP " + res.status);
+        LIBS = await res.json();
+        populateTagFilter(LIBS);
+        render();
+      }catch(err){
+        statusEl.innerHTML = `<span class="err">Error cargando libraries.json</span>. Verifica que el archivo existe en la raíz o /docs y que GitHub Pages está activo.`;
+      }
+    }
+
+    [q, tagSelect].forEach(el => el.addEventListener('input', render));
+    loadLibs();
+    </script>
+    </body>
+</html>

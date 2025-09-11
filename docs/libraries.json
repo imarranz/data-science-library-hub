@@ -2,91 +2,91 @@
 [
   {
     "name": "matplotlib",
-    "description": "2D Plotting library for Python",
+    "description": "2D Plotting library for Python.",
     "github": "https://github.com/matplotlib/matplotlib",
     "docs": "https://matplotlib.org/",
     "tags": ["Data Visualization"]
   },
   {
     "name": "seaborn",
-    "description": "Statistical data visualization",
+    "description": "Statistical data visualization.",
     "github": "https://github.com/mwaskom/seaborn",
     "docs": "https://seaborn.pydata.org/",
     "tags": ["Data Visualization"]
   },
   {
     "name": "altair",
-    "description": "Declarative statistical visualization library for Python",
+    "description": "Declarative statistical visualization library for Python.",
     "github": "https://github.com/altair-viz/altair",
     "docs": "https://altair-viz.github.io/",
     "tags": ["Data Visualization"]
   },
   {
     "name": "pandas",
-    "description": "Data manipulation and analysis",
+    "description": "Data manipulation and analysis.",
     "github": "https://github.com/pandas-dev/pandas",
     "docs": "https://pandas.pydata.org/",
     "tags": ["Data Manipulation"]
   },
   {
     "name": "numpy",
-    "description": "Numerical computing with Python",
+    "description": "Numerical computing with Python.",
     "github": "https://github.com/numpy/numpy",
     "docs": "https://numpy.org/",
     "tags": ["Data Manipulation"]
   },
   {
     "name": "scipy",
-    "description": "Scientific computing and technical computing",
+    "description": "Scientific computing and technical computing.",
     "github": "https://github.com/scipy/scipy",
     "docs": "https://scipy.org/",
     "tags": ["Data Manipulation"]
   },
   {
     "name": "math",
-    "description": "Mathematical functions defined by the C standard",
+    "description": "Mathematical functions defined by the C standard.",
     "github": "",
     "docs": "https://docs.python.org/3/library/math.html",
     "tags": ["Data Manipulation"]
   },
   {
     "name": "itertools",
-    "description": "Functions creating iterators for efficient looping",
+    "description": "Functions creating iterators for efficient looping.",
     "github": "",
     "docs": "https://docs.python.org/3/library/itertools.html",
     "tags": ["Data Manipulation"]
   },
   {
     "name": "Scikit-learn",
-    "description": "Machine learning in Python",
+    "description": "Machine learning in Python. Scikit-learn is an open source machine learning library that supports supervised and unsupervised learning.",
     "github": "https://github.com/scikit-learn/scikit-learn",
     "docs": "https://scikit-learn.org/stable/",
     "tags": ["Machine Learning", "Data Manipulation"]
   },
   {
     "name": "yaml",
-    "description": "YAML parser and emitter for Python",
+    "description": "YAML parser and emitter for Python.",
     "github": "https://github.com/yaml/pyyaml",
     "docs": "https://pyyaml.org/wiki/PyYAMLDocumentation",
     "tags": ["Advanced Tools"]
   },
   {
     "name": "joblib",
-    "description": "Lightweight pipelining: using Python functions as pipeline jobs",
+    "description": "Lightweight pipelining: using Python functions as pipeline jobs.",
     "github": "https://github.com/joblib/joblib",
     "docs": "https://joblib.readthedocs.io/en/stable/",
     "tags": ["Advanced Tools"]
   },
   {
     "name": "pickle",
-    "description": "Serialize Python object structures",
+    "description": "Serialize Python object structures.",
     "github": "",
     "docs": "https://docs.python.org/3/library/pickle.html",
     "tags": ["Advanced Tools"]
   },
   {
     "name": "bs4 (BeautifulSoup)",
-    "description": "Pulling data out of HTML and XML files",
+    "description": "Beautiful Soup is a library that makes it easy to scrape information from web pages.",
     "github": "",
     "docs": "https://www.crummy.com/software/BeautifulSoup/bs4/doc/",
     "tags": ["Advanced Tools"]
@@ -100,49 +100,49 @@
   },
   {
     "name": "urllib",
-    "description": "URL handling modules for Python",
+    "description": "URL handling modules for Python.",
     "github": "",
     "docs": "",
     "tags": ["Advanced Tools"]
   },
   {
     "name": "xlsxwriter",
-    "description": "Python module for creating Excel XLSX files",
+    "description": "Python module for creating Excel XLSX files.",
     "github": "https://github.com/jmcnamara/XlsxWriter",
-    "docs": "",
+    "docs": "https://xlsxwriter.readthedocs.io/",
     "tags": ["Advanced Tools"]
   },
   {
     "name": "time",
-    "description": "Time access and conversions",
+    "description": "Time access and conversions.",
     "github": "",
     "docs": "",
     "tags": ["Development and Debugging"]
   },
   {
     "name": "sqlite3",
-    "description": "Database engine included with Python",
+    "description": "Database engine included with Python.",
     "github": "https://github.com/python/cpython/blob/main/Doc/library/sqlite3.rst?plain=1",
     "docs": "https://docs.python.org/3/library/sqlite3.html",
     "tags": ["Development and Debugging"]
   },
   {
     "name": "IPython",
-    "description": "Powerful interactive shell for Python",
+    "description": "Powerful interactive shell for Python.",
     "github": "https://github.com/ipython/ipython",
     "docs": "",
     "tags": ["Development and Debugging", "Advanced Tools"]
   },
   {
     "name": "datetime",
-    "description": "Basic date and time types",
+    "description": "Basic date and time types.",
     "github": "",
     "docs": "",
     "tags": ["Development and Debugging"]
   },
   {
     "name": "warnings",
-    "description": "Non-fatal alerts used to issue cautionary advice",
+    "description": "Non-fatal alerts used to issue cautionary advice.",
     "github": "",
     "docs": "",
     "tags": ["Development and Debugging"]

@@ -4,84 +4,84 @@
     "name": "matplotlib",
     "description": "2D Plotting library for Python",
     "github": "https://github.com/matplotlib/matplotlib",
-    "docs": "",
+    "docs": "https://matplotlib.org/",
     "tags": ["Data Visualization"]
   },
   {
     "name": "seaborn",
     "description": "Statistical data visualization",
     "github": "https://github.com/mwaskom/seaborn",
-    "docs": "",
+    "docs": "https://seaborn.pydata.org/",
     "tags": ["Data Visualization"]
   },
   {
     "name": "altair",
     "description": "Declarative statistical visualization library for Python",
     "github": "https://github.com/altair-viz/altair",
-    "docs": "",
+    "docs": "https://altair-viz.github.io/",
     "tags": ["Data Visualization"]
   },
   {
     "name": "pandas",
     "description": "Data manipulation and analysis",
     "github": "https://github.com/pandas-dev/pandas",
-    "docs": "",
+    "docs": "https://pandas.pydata.org/",
     "tags": ["Data Manipulation"]
   },
   {
     "name": "numpy",
     "description": "Numerical computing with Python",
     "github": "https://github.com/numpy/numpy",
-    "docs": "",
+    "docs": "https://numpy.org/",
     "tags": ["Data Manipulation"]
   },
   {
     "name": "scipy",
     "description": "Scientific computing and technical computing",
     "github": "https://github.com/scipy/scipy",
-    "docs": "",
+    "docs": "https://scipy.org/",
     "tags": ["Data Manipulation"]
   },
   {
     "name": "math",
     "description": "Mathematical functions defined by the C standard",
     "github": "",
-    "docs": "",
+    "docs": "https://docs.python.org/3/library/math.html",
     "tags": ["Data Manipulation"]
   },
   {
     "name": "itertools",
     "description": "Functions creating iterators for efficient looping",
     "github": "",
-    "docs": "",
+    "docs": "https://docs.python.org/3/library/itertools.html",
     "tags": ["Data Manipulation"]
   },
   {
     "name": "Scikit-learn",
     "description": "Machine learning in Python",
     "github": "https://github.com/scikit-learn/scikit-learn",
-    "docs": "",
-    "tags": ["Machine Learning"]
+    "docs": "https://scikit-learn.org/stable/",
+    "tags": ["Machine Learning", "Data Manipulation"]
   },
   {
     "name": "yaml",
     "description": "YAML parser and emitter for Python",
     "github": "https://github.com/yaml/pyyaml",
-    "docs": "",
+    "docs": "https://pyyaml.org/wiki/PyYAMLDocumentation",
     "tags": ["Advanced Tools"]
   },
   {
     "name": "joblib",
     "description": "Lightweight pipelining: using Python functions as pipeline jobs",
     "github": "https://github.com/joblib/joblib",
-    "docs": "",
+    "docs": "https://joblib.readthedocs.io/en/stable/",
     "tags": ["Advanced Tools"]
   },
   {
     "name": "pickle",
     "description": "Serialize Python object structures",
     "github": "",
-    "docs": "",
+    "docs": "https://docs.python.org/3/library/pickle.html",
     "tags": ["Advanced Tools"]
   },
   {
@@ -122,8 +122,8 @@
   {
     "name": "sqlite3",
     "description": "Database engine included with Python",
-    "github": "",
-    "docs": "",
+    "github": "https://github.com/python/cpython/blob/main/Doc/library/sqlite3.rst?plain=1",
+    "docs": "https://docs.python.org/3/library/sqlite3.html",
     "tags": ["Development and Debugging"]
   },
   {
@@ -131,7 +131,7 @@
     "description": "Powerful interactive shell for Python",
     "github": "https://github.com/ipython/ipython",
     "docs": "",
-    "tags": ["Development and Debugging"]
+    "tags": ["Development and Debugging", "Advanced Tools"]
   },
   {
     "name": "datetime",
@@ -152,14 +152,14 @@
     "description": "A suite of visualization and diagnostic tools for faster model selection.",
     "github": "https://github.com/DistrictDataLabs/yellowbrick",
     "docs": "",
-    "tags": ["Data Visualization"]
+    "tags": ["Data Visualization", "Machine Learning"]
   },
   {
     "name": "Missingno",
     "description": "Visualize missing values in your dataset with ease.",
     "github": "https://github.com/ResidentMario/missingno",
     "docs": "",
-    "tags": ["Data Visualization"]
+    "tags": ["Data Manipulation", "Data Visualization"]
   },
   {
     "name": "stickyland",
@@ -197,22 +197,29 @@
     "tags": ["Data Visualization"]
   },
   {
+    "name": "ITables",
+    "description": "This packages changes how Pandas and Polars DataFrames are rendered in Python notebooks and applications.",
+    "github": "https://github.com/mwouts/itables",
+    "docs": "https://pypi.org/project/itables/",
+    "tags": ["Data Visualization"]
+  },
+  {
     "name": "DABEST",
-    "description": "Data Analysis using Bootstrapped ESTimation",
+    "description": "DABEST is a package for Data Analysis with Bootstrapped ESTimation",
     "github": "https://github.com/ACCLAB/DABEST-python",
-    "docs": "",
+    "docs": "https://acclab.github.io/DABEST-python/01-getting_started.html",
     "tags": ["Data Visualization"]
   },
   {
     "name": "tableone",
-    "description": "Create \"Table 1\" summaries for research papers",
+    "description": "tableone is a package for creating \"Table 1\" summary statistics for a patient population. It was inspired by the R package of the same name by Yoshida and Bohn.",
     "github": "https://github.com/tompollard/tableone",
-    "docs": "",
-    "tags": ["Data Visualization"]
+    "docs": "https://tableone.readthedocs.io/en/latest/quickstart.html",
+    "tags": ["Data Manipulation", "Data Visualization"]
   },
   {
     "name": "statannot",
-    "description": "Add statistical annotations on an existing boxplot/barplot",
+    "description": "Python package to optionnally compute statistical test and add statistical annotations on an existing boxplot/barplot generated by seaborn.",
     "github": "https://github.com/webermarcolivier/statannot",
     "docs": "",
     "tags": ["Data Visualization"]
@@ -222,7 +229,7 @@
     "description": "A variety of methods to handle class imbalance.",
     "github": "https://github.com/scikit-learn-contrib/imbalanced-learn",
     "docs": "",
-    "tags": ["Data Manipulation"]
+    "tags": ["Data Manipulation", "Machine Learning"]
   },
   {
     "name": "Modin",
@@ -257,14 +264,14 @@
     "description": "Generate a high-level EDA report of your data in no time.",
     "github": "https://github.com/ydataai/ydata-profiling",
     "docs": "",
-    "tags": ["Data Manipulation"]
+    "tags": ["Data Manipulation", "Data Visualization"]
   },
   {
     "name": "Category-encoders",
     "description": "Over 15 categorical data encoders.",
     "github": "https://github.com/scikit-learn-contrib/category_encoders",
     "docs": "",
-    "tags": ["Data Manipulation"]
+    "tags": ["Data Manipulation", "Machine Learning"]
   },
   {
     "name": "DuckDB",
@@ -282,16 +289,16 @@
   },
   {
     "name": "CSV-Kit",
-    "description": "Explore, query, and describe CSV files from the terminal.",
+    "description": "csvkit is a suite of command-line tools for converting to and working with CSV, the king of tabular file formats.",
     "github": "https://github.com/wireservice/csvkit",
-    "docs": "",
+    "docs": "https://csvkit.readthedocs.io/en/latest/",
     "tags": ["Data Manipulation"]
   },
   {
     "name": "pingouin",
-    "description": "Statistics in Python",
+    "description": "Pingouin is an open-source statistical package written in Python 3 and based mostly on Pandas and NumPy.",
     "github": "https://github.com/raphaelvallat/pingouin",
-    "docs": "",
+    "docs": "https://pingouin-stats.org/build/html/index.html",
     "tags": ["Data Manipulation"]
   },
   {
@@ -310,7 +317,7 @@
   },
   {
     "name": "mlflow",
-    "description": "Open source platform for the machine learning lifecycle",
+    "description": "Open source platform for the machine learning lifecycle.",
     "github": "https://github.com/mlflow/mlflow",
     "docs": "",
     "tags": ["Machine Learning"]
@@ -327,7 +334,7 @@
     "description": "Automated feature engineering for ML models.",
     "github": "https://github.com/alteryx/featuretools",
     "docs": "",
-    "tags": ["Machine Learning"]
+    "tags": ["Machine Learning", "Advanced Tools"]
   },
   {
     "name": "Lazy Predict",
@@ -338,7 +345,7 @@
   },
   {
     "name": "openai",
-    "description": "OpenAI API client library",
+    "description": "OpenAI API client library.",
     "github": "https://github.com/openai/openai-python",
     "docs": "",
     "tags": ["Machine Learning"]
@@ -361,8 +368,8 @@
     "name": "Pandas ML",
     "description": "Pandas data wrangling + Sklearn algorithms + Matplotlib visualization.",
     "github": "https://github.com/pandas-ml/pandas-ml",
-    "docs": "",
-    "tags": ["Machine Learning"]
+    "docs": "https://pandas-ml.readthedocs.io/en/stable/",
+    "tags": ["Machine Learning", "Data Manipulation"]
   },
   {
     "name": "Faiss",
@@ -382,7 +389,7 @@
     "name": "Streamlit",
     "description": "Create and host data-based Python web apps in few lines of code.",
     "github": "https://github.com/streamlit/streamlit",
-    "docs": "",
+    "docs": "https://docs.streamlit.io/",
     "tags": ["Development and Debugging"]
   },
   {
@@ -415,21 +422,21 @@
   },
   {
     "name": "watermark",
-    "description": "IPython magic to display timestamps, version numbers, and hardware information",
+    "description": "IPython magic to display timestamps, version numbers, and hardware information.",
     "github": "https://github.com/rasbt/watermark",
     "docs": "",
     "tags": ["Development and Debugging"]
   },
   {
     "name": "ipywidgets",
-    "description": "Interactive HTML widgets for Jupyter notebooks",
+    "description": "Interactive HTML widgets for Jupyter notebooks.",
     "github": "https://github.com/jupyter-widgets/ipywidgets",
     "docs": "",
     "tags": ["Development and Debugging"]
   },
   {
     "name": "myst_nb",
-    "description": "Jupyter Notebooks in Sphinx Documentation",
+    "description": "Jupyter Notebooks in Sphinx Documentation.",
     "github": "https://github.com/executablebooks/MyST-NB",
     "docs": "",
     "tags": ["Development and Debugging"]

@@ -53,6 +53,9 @@
     .chip{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;font-size:.8rem;border:1px solid var(--border);background:var(--chip);color:var(--fg)}
     .chip.ml{ background:#f59e0b; color:#0b1220; border-color:#f59e0b; }       /* naranja bonito (amber-500 vibe) */
     .chip.viz{ background:#22c55e; color:white; border-color:#22c55e; }        /* verde bonito (green-500 vibe) */
+    .chip.at { background: #8b5cf6; color: white; border-color: #8b5cf6; }     /* púrpura bonito (violet-500 vibe) */
+    .chip.dm { background: #e11d48; color: white; border-color: #e11d48; }     /* rosa rojizo (rose-600 vibe) */
+    .chip.dd { background: #0ea5e9; color: white; border-color: #0ea5e9; }     /* azul brillante (sky-500 vibe) */
     .actions{display:flex;gap:10px;margin-top:8px;flex-wrap:wrap}
     .btn{display:inline-block;padding:8px 10px;border-radius:10px;border:1px solid var(--border);background:transparent}
     .btn.primary{background:var(--accent);border-color:var(--accent);color:white}
@@ -84,7 +87,7 @@
       position: absolute;
       right: 0;
       background-color: var(--card);
-      min-width: 400px;
+      min-width: 500px;
       box-shadow: 0px 2px 8px rgba(100,100,100,0.2);
       padding: 10px;
       border-radius: 15px;
@@ -104,7 +107,6 @@
     .menu-dropdown.show {
       display: block;
     }
-
   </style>
 </head>
 <body>
@@ -112,7 +114,7 @@
     <header class="hero" role="banner">
       <h1>Python Data Science Library Hub</h1>
         <p style="color:var(--muted); font-size:1.2rem; margin-top:6px;">
-        Librerías y herramientas del ecosistema Python para Ciencia de Datos, con búsqueda, filtro por etiqueta y enlaces rápidos a GitHub y documentación.
+        Este repositorio es una lista seleccionada de librerías esenciales de <b>Data Science</b>, que muestra herramientas clave como <i>Pandas</i> y <i>NumPy</i> para la manipulación de datos, así como bibliotecas innovadoras como <i>Seaborn</i> y <i>PyCaret</i> para la visualización avanzada de datos y flujos de trabajo automatizados de <i>Machine Learning</i>.
         </p>
         <p style="color:var(--muted); font-size:1.1rem; margin-top:6px;">
           por Ibon Martinez-Arranz |
@@ -126,7 +128,7 @@
           <a href="https://github.com/imarranz/data-science-library-hub" target="_blank">
             <img src="https://img.shields.io/github/stars/imarranz/data-science-library-hub?style=social"
                 alt="GitHub Stars" style="vertical-align:middle; margin-left:4px;">
-          </a>
+          </a> | Si te resulta útil, apóyalo en GitHub: ⭐
         </p>
 
       <hr>
@@ -163,7 +165,7 @@
       <p style="font-size:1.5rem;"><strong>Data Science Library Hub</strong></p>
       <hr>
       <p style="color:var(--muted); font-size:0.89rem; margin-top:2px;">
-        Librerías y herramientas del ecosistema Python para Ciencia de Datos, con búsqueda, filtro por etiqueta y enlaces rápidos a GitHub y documentación.
+        Este repositorio es una lista seleccionada de bibliotecas esenciales de Data Science, que muestra herramientas clave como Pandas y NumPy para la manipulación de datos, así como bibliotecas innovadoras como Seaborn y PyCaret para la visualización avanzada de datos y flujos de trabajo automatizados de machine learning.
       </p>
       <p>&#128100; Ibon Martínez-Arranz (@imarranz)</p>
       <a href="https://github.com/imarranz/data-science-library-hub" target="_blank"><strong>&#128194; ir al repositorio </strong></a>
@@ -188,6 +190,9 @@
       const t = (tag || "").toLowerCase();
       if (t.includes("machine learning") || t === "ml") return "ml";
       if (t.includes("visualization") || t.includes("visualisation") || t.includes("viz")) return "viz";
+      if (t.includes("advanced tools") || t.includes("tools") || t === "at") return "at";
+      if (t.includes("data manipulation") || t.includes("data")) return "dm";
+      if (t.includes("development & debugging") || t.includes("development") || t.includes("debugging")) return "dd";
       return "";
     }
 

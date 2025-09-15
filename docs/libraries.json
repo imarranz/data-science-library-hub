@@ -151,7 +151,7 @@
     "name": "YellowBrick",
     "description": "A suite of visualization and diagnostic tools for faster model selection.",
     "github": "https://github.com/DistrictDataLabs/yellowbrick",
-    "docs": "",
+    "docs": "https://www.scikit-yb.org/en/latest/",
     "tags": ["Data Visualization", "Machine Learning"]
   },
   {
@@ -172,7 +172,7 @@
     "name": "PyGWalker",
     "description": "PyGWalker: Turn your pandas dataframe into an interactive UI for visual analysis",
     "github": "https://github.com/Kanaries/pygwalker",
-    "docs": "",
+    "docs": "https://kanaries.net/pygwalker",
     "tags": ["Data Visualization"]
   },
   {
@@ -447,5 +447,12 @@
     "github": "https://github.com/Brritany/MLstatkit",
     "docs": "https://pypi.org/project/MLstatkit/",
     "tags": ["Machine Learning"]
+  },
+  {
+    "name": "mtest",
+    "description": "Functions to detect and quantify multicollinearity via a nonparametric pairs bootstrap.",
+    "github": "https://github.com/vmoprojs/mtest-py",
+    "docs": "https://pypi.org/project/mtest-py/",
+    "tags": ["Data Manipulation"]
   }
 ]

@@ -197,7 +197,7 @@
     "tags": ["Data Visualization"]
   },
   {
-    "name": "ITables",
+    "name": "itables",
     "description": "This packages changes how Pandas and Polars DataFrames are rendered in Python notebooks and applications.",
     "github": "https://github.com/mwouts/itables",
     "docs": "https://pypi.org/project/itables/",
@@ -453,6 +453,13 @@
     "description": "Functions to detect and quantify multicollinearity via a nonparametric pairs bootstrap.",
     "github": "https://github.com/vmoprojs/mtest-py",
     "docs": "https://pypi.org/project/mtest-py/",
+    "tags": ["Data Manipulation"]
+  },
+  {
+    "name": "ppscore",
+    "description": "The PPS is an asymmetric, data-type-agnostic score that can detect linear or non-linear relationships between two columns.",
+    "github": "https://github.com/8080labs/ppscore/",
+    "docs": "https://pypi.org/project/ppscore/",
     "tags": ["Data Manipulation"]
   }
 ]

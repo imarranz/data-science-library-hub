@@ -461,5 +461,19 @@
     "github": "https://github.com/8080labs/ppscore/",
     "docs": "https://pypi.org/project/ppscore/",
     "tags": ["Data Manipulation"]
+  },
+  {
+    "name": "tpot",
+    "description": "TPOT is an AutoML tool that uses genetic programming to optimize machine learning pipelines.",
+    "github": "https://github.com/EpistasisLab/tpot",
+    "docs": "https://epistasislab.github.io/tpot/",
+    "tags": ["Machine Learning"]
+  },
+  {
+    "name": "h2o",
+    "description": "H2O is an open-source platform for distributed machine learning, offering scalable algorithms and AutoML functionality.",
+    "github": "https://github.com/h2oai/h2o-3",
+    "docs": "https://docs.h2o.ai/h2o/latest-stable/h2o-docs/index.html",
+    "tags": ["Machine Learning"]
   }
 ]

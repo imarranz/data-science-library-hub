@@ -475,5 +475,12 @@
     "github": "https://github.com/h2oai/h2o-3",
     "docs": "https://docs.h2o.ai/h2o/latest-stable/h2o-docs/index.html",
     "tags": ["Machine Learning"]
+  },
+  {
+    "name": "pylint",
+    "description": "Pylint is a static code analysis tool for Python that detects errors, enforces coding standards, and suggests code quality improvements.",
+    "github": "https://github.com/pylint-dev/pylint",
+    "docs": "https://pylint.readthedocs.io/en/latest/",
+    "tags": ["Development and Debugging"]
   }
 ]

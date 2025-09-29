@@ -482,5 +482,13 @@
     "github": "https://github.com/pylint-dev/pylint",
     "docs": "https://pylint.readthedocs.io/en/latest/",
     "tags": ["Development and Debugging"]
+  },
+  {
+    "name": "polars",
+    "description": "Polars is a fast DataFrame library for Rust and Python, designed for efficient data manipulation and analysis with a focus on performance and parallelism.",
+    "github": "https://github.com/pola-rs/polars",
+    "docs": "https://docs.pola.rs/",
+    "tags": ["Data Manipulation", "Data Visualization"]
   }
+
 ]

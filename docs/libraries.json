@@ -489,6 +489,13 @@
     "github": "https://github.com/pola-rs/polars",
     "docs": "https://docs.pola.rs/",
     "tags": ["Data Manipulation", "Data Visualization"]
+  },
+  {
+    "name": "pytorch",
+    "description": "Deep learning framework for fast, flexible experimentation and production.",
+    "github": "https://github.com/pytorch/pytorch",
+    "docs": "https://docs.pytorch.org/docs/stable/index.html",
+    "tags": ["Data Manipulation", "Machine Learning"]
   }
 
 ]
